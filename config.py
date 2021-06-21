@@ -30,7 +30,7 @@ class Config:
         LOG_GROUP=int(LOG_GROUP)
     else:
         LOG_GROUP=None
-    STREAM_URL=os.environ.get("STREAM_URL", "https://radioindia.net/radio/hungamanow/icecast.audio")
+    STREAM_URL=os.environ.get("STREAM_URL", "https://radio.grupuriromanesti.ro/radio/8000/radio.mp3")
     API_HASH = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     SESSION = os.environ.get("SESSION_STRING", "")
